@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background: blue;
+    color: orange;
+}
+h3 {
+    color: white;
+}
+span {
+    color: red;
+}
+button {
+    background: black;
+    color: white;
+}

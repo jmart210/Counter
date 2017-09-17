@@ -1,0 +1,7 @@
+{
+    "name": "Counter app",
+    "description": "Simple app using express and session",
+    "repository": "https://github.com/jmart210/Counter.git",
+    "logo": "http://node-js-sample.herokuapp.com/node.svg",
+    "image": "heroku/nodejs"
+}

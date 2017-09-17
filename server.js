@@ -38,6 +38,6 @@ app.post('/reset', function(req,res){
     console.log("Reset count");
     res.redirect('/');
 });
-app.listen(8000, function(){
-    console.log("server for counter on port 8000!");
+app.listen(process.env.PORT || 8000, function(){
+    console.log("Express server listening o port %d in %s mode", this.address().port, app.settings.env);
 });
